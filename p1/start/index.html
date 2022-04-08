@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="container icon-grid" id="griglia"></div>
+    <div class="container text-center">
+        <input type="button" id="restart" class="button again" value="Ricomincia">
+        <div class="scritte">
+            <div class="timer" id="timer">Tempo: 0 min 0 sec</div>
+            <div class="timer" id="click">Numero di click: 0</div>
+        </div>
+    </div>
+    <div id="modal">
+        <div class="content">
+            <div id="tempoTrascorso"></div>
+            <p><input type="button" class="button again" id="restart" value="Altra partita"></p>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
